@@ -1,0 +1,32 @@
+plugins {
+    id 'com.android.application' version '8.7.3'
+}
+
+android {
+    namespace 'se.julklappstimern'
+    compileSdk 35
+    buildToolsVersion '35.0.0'
+
+    defaultConfig {
+        applicationId 'se.julklappstimern'
+        minSdk 26
+        targetSdk 35
+        versionCode 1
+        versionName '0.1.0'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    sourceSets.main.res.srcDir layout.buildDirectory.dir('generated/timerAudio')
+}
+
+def stageAudio = tasks.register('stageAudio', Copy) {
+    into layout.buildDirectory.dir('generated/timerAudio/raw')
+    from(rootProject.file('ljud/santa-countdown.mp3')) { rename { 'nedrakning.mp3' } }
+    from(rootProject.file('ljud/larm-pling.wav')) { rename { 'startpling.wav' } }
+    from(rootProject.file('ljud/deck-the-halls-bjallror.mp3')) { rename { 'slutlarm.mp3' } }
+}
+tasks.named('preBuild') { dependsOn stageAudio }

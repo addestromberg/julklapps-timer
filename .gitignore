@@ -1,0 +1,31 @@
+# Gradle and Android build output
+.gradle/
+.gradle-user-home/
+.kotlin/
+build/
+out/
+.cxx/
+.externalNativeBuild/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Android Studio and local SDK settings
+.idea/
+*.iml
+*.ipr
+*.iws
+local.properties
+captures/
+
+# Signing keys and local credentials
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+secrets.properties
+
+# Logs and heap dumps
+*.log
+*.hprof
