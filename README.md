@@ -4,19 +4,11 @@
 
 En hemlig timer till julklappsspelet. Du bestämmer hur kort och lång rundan får vara. Tomten lottar tiden och håller den hemlig tills rundan är över.
 
+[<img src="docs/screenshots/start.png" width="190" alt="Startvyn med mintid 15 minuter, maxtid 25 minuter och knappen Starta">](docs/screenshots/start.png) [<img src="docs/screenshots/nedrakning.png" width="190" alt="Tomtens ljudtest visar en stor trea under nedräkningen">](docs/screenshots/nedrakning.png) [<img src="docs/screenshots/rundan-pagar.png" width="190" alt="Pågående runda med hemlig tid och knapparna Pausa och Stoppa rundan">](docs/screenshots/rundan-pagar.png) [<img src="docs/screenshots/rundan-klar.png" width="190" alt="Avslutad runda med den lottade tiden och knappen Ny runda">](docs/screenshots/rundan-klar.png)
+
 ## Installera
 
 Julklappstimern fungerar på Android 8.0 eller senare. [Ladda ner APK-filen från GitHub](https://github.com/addestromberg/julklapps-timer/releases/latest), öppna den på telefonen och följ Androids installationssteg. Om Android ber om det, välj **Tillåt från den här källan** för appen som öppnar APK-filen. [Googles installationsguide](https://support.google.com/pixelphone/answer/7391672?hl=sv)
-
-## Appen i bilder
-
-| Ställ in rundan | Tomtens nedräkning |
-| :---: | :---: |
-| [<img src="docs/screenshots/start.png" width="190" alt="Startvyn med mintid 15 minuter, maxtid 25 minuter och knappen Starta">](docs/screenshots/start.png) | [<img src="docs/screenshots/nedrakning.png" width="190" alt="Tomtens ljudtest visar en stor trea under nedräkningen">](docs/screenshots/nedrakning.png) |
-| **Rundan pågår** | **Rundan är klar** |
-| [<img src="docs/screenshots/rundan-pagar.png" width="190" alt="Pågående runda med hemlig tid och knapparna Pausa och Stoppa rundan">](docs/screenshots/rundan-pagar.png) | [<img src="docs/screenshots/rundan-klar.png" width="190" alt="Avslutad runda med den lottade tiden och knappen Ny runda">](docs/screenshots/rundan-klar.png) |
-
-*Vyer från FigCraft-prototypen.*
 
 ## Spela en runda
 
